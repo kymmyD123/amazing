@@ -183,9 +183,14 @@ header {
     display: block;
     margin-top: 40px;
     padding: 10px 0 7px 0;
-    border: 1px solid #f9f9f9;
+    border: 2px solid #f9f9f9;
     width: 260px;
     border-radius: 25px;
+}
+
+.btn:hover {
+    color: #8e8e8e;
+    border: 2px solid #8e8e8e;
 }
 
 .music {
@@ -243,6 +248,11 @@ header {
     font-weight: 700;
 }
 
+.music-info a:hover {
+    color: #1b4b25;
+    border: 1px solid #1b4b25;
+}
+
 .feature {
     height: 516px;
 }
@@ -289,6 +299,11 @@ header {
     border-radius: 35px;
     padding: 15px 0 15px 0;
     letter-spacing: 2px;
+}
+
+.description a:hover {
+    color: #8e8e8e;
+    border: 2px solid #8e8e8e;
 }
 
 footer {
