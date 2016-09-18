@@ -290,3 +290,112 @@ header {
   padding: 15px 0 15px 0;
   letter-spacing: 2px;
 }
+
+footer {
+  background: #212227;
+  width: 100%;
+  min-height: 603px;
+}
+
+footer h2 {
+  text-transform: uppercase;
+  color: #f9f9f9;
+}
+
+footer p {
+  color: #919191;
+}
+
+.wrapper {
+  width: 1180px;
+  margin: 0 auto;
+  padding-top: 101px;
+}
+
+.footer-copyright {
+  width: 280px;
+  float: left;
+
+}
+
+.footer-copyright h2 {
+  margin-bottom: 35px;
+}
+
+.footer-copyright .about {
+  margin-bottom: 25px;
+}
+
+.footer-contact {
+  width: 200px;
+  float: left;
+  margin-left: 120px;
+}
+
+.footer-contact h2 {
+  margin-bottom: 35px;
+}
+
+.footer-contact .adress {
+  margin-bottom: 25px;
+}
+
+.contact {
+  margin-bottom: 80px;
+}
+
+.footer-subscribe {
+  width: 480px;
+  float: right;
+}
+
+.footer-subscribe h2 {
+  margin-bottom: 30px;
+}
+
+.footer-subscribe p {
+  margin-bottom: 20px;
+}
+
+.footer-subscribe form {
+  margin-bottom: 80px;
+}
+
+.footer-subscribe input {
+  width:480px;
+  height: 60px;
+  background: #4d4e52;
+  color: #919191;
+  border: none;
+}
+
+.footer-social {
+  width: 105px;
+}
+
+.socialnetworks {
+  float: left;
+}
+
+.text span {
+  float: right;
+  color: #919191;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.sponsor li {
+  margin-right: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  border: 1px solid #f9f9f9;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  padding-top: 30px;
+  box-sizing: border-box;
+}
+
+footer ul {
+  color: #919191;
+}
