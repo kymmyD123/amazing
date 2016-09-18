@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Fira Sans', sans-serif;
-  font-weight: normal;
+  font-weight: 300;
   min-width: 1600px;
 }
 
@@ -11,6 +11,13 @@ ul {
   padding: 0;
   list-style: none;
 }
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+
 
 .clearfix::after {
   content: "";
@@ -85,7 +92,7 @@ header {
 
 .person-info h2 {
   text-transform: uppercase;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 24px;
 }
 
@@ -125,58 +132,78 @@ header {
 .instagram {
   background: #3f729b;
   width: 100%;
-  min-height: 515px;
+  max-height: 515px;
 }
 
-
-.right {
-  float: right;
-  width: 50%;
-}
-
-.left {
-  float: left;
-  background: #3f729b;
-  width: 50%;
-  height: 608px;
-}
-
-.about {
-  color: #f9f9f9;
-  padding: 120px 0 0 210px;
-  width: 560px;
-}
-
-.about p {
+.instagram-info h2 {
+  margin: 0;
   text-transform: uppercase;
-  font-weight: bold;
-  font-size: 24pt;
+  font-weight: 700;
+  font-size: 24px;
 }
 
-.about span {
-  font-size: 30pt;
+.instagram-info {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 120px 0 0 210px;
+  color: #f9f9f9;
 }
 
-.about a {
+.instagram-img {
+  float: left;
+  width: 50%;
+  height:514px;
+}
+
+.instagram-info h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 24px;
+  width: 560px;
+  margin-bottom: 10px;
+}
+
+.instagram-info p {
+  font-size: 30px;
+}
+
+.instagram-info a {
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
   color: #f9f9f9;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18pt;
 }
 
 .btn {
+  display: block;
   margin-top: 40px;
-  padding: 10px;
+  padding: 10px 0 7px 0;
   border: 1px solid #f9f9f9;
   width: 260px;
   border-radius: 25px;
 }
 
-.large {
-  height: 608px;
+.music {
+  max-height: 899px;
+  width: 100%;
+  background: #282b2f;
 }
+
+.music-right {
+  width: 75%;
+  float: right;
+  background: url("../img/music.jpg") 0 0 no-repeat;
+  height: 899px;
+  background-size: cover;
+}
+
+
+
+
+/*
 
 .column-1 {
   width: 450px;
@@ -186,7 +213,7 @@ header {
 }
 
 .column-1 p {
-  font-weight: bold;
+  font-weight: 700;
   color: #2ebd59;
   font-size: 18pt;
 }
@@ -232,7 +259,7 @@ footer {
 }
 
 .description p {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 24pt;
   margin-top: 0;
 }
@@ -255,4 +282,4 @@ footer {
   border-radius: 35px;
   margin-right: 0;
   margin-top: 50px;
-}
+}*/
