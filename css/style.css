@@ -1,401 +1,434 @@
 body {
-  padding: 0;
-  margin: 0;
-  font-family: 'Fira Sans', sans-serif;
-  font-weight: 300;
-  min-width: 1600px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    min-width: 1600px;
 }
 
 ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 p {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 h2, h3 {
-  margin: 0;
+    margin: 0;
 }
 
 .clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 header {
-  background: url("../img/header.jpg") center no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-color: #68C4CF;
-  width: 100%;
-  height: 100vh;
-  /*height: 900px;*/
+    background: url("../img/header.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-color: #68C4CF;
+    width: 100%;
+    height: 100vh;
+    /*height: 900px;*/
 }
 
 .container {
-  width: 1180px;
-  margin: 0 auto;
+    width: 1180px;
+    margin: 0 auto;
 }
 
 .header-top {
-  padding-top: 88px;
+    padding-top: 88px;
 }
 
 .logo {
-  display: block;
-  float: left;
+    display: block;
+    float: left;
 }
 
 .menu {
-  display: block;
-  float: right;
-  background: url("../img/menu.png") 0 0 no-repeat;
-  width: 31px;
-  height: 42px;
-  margin-top: 20px;
+    display: block;
+    float: right;
+    background: url("../img/menu.png") 0 0 no-repeat;
+    width: 31px;
+    height: 42px;
+    margin-top: 20px;
 }
 
 .header-bottom {
-  padding-top: 200px;
+    padding-top: 200px;
 }
 
 .header-bottom h1 {
-  font-size: 72px;
-  margin: 0;
+    font-size: 72px;
+    margin: 0;
 }
 
 .header-bottom p {
-  font-size: 30px;
-  max-width: 550px;
+    font-size: 30px;
+    max-width: 550px;
 }
 
 .person-img {
-  float: left;
-  width: 50%;
-  height: 542px;
-  background: #7d4047 url("../img/man.jpg") 0 0 no-repeat;
-  background-size: cover;
+    float: left;
+    width: 50%;
+    height: 542px;
+    background: #7d4047 url("../img/man.jpg") 0 0 no-repeat;
+    background-size: cover;
 }
 
 .person-info {
-  width: 50%;
-  float: right;
-  background: #f3f1ef;
-  padding: 115px 0 0 55px;
-  color: #666666;
-  box-sizing: border-box;
-  min-height: 542px;
+    width: 50%;
+    float: right;
+    background: #f3f1ef;
+    padding: 115px 0 0 55px;
+    color: #666666;
+    box-sizing: border-box;
+    min-height: 542px;
 }
 
 .person-info h2 {
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .person-info p {
-  font-size: 36px;
-  max-width: 500px;
+    font-size: 36px;
+    max-width: 500px;
 }
 
 .gallery {
-  font-size: 0;
+    font-size: 0;
 }
 
 .gallery li {
-  display: inline-block;
-  vertical-align: top;
-  width: 25%;
-  background-size: cover;
-  height: 518px;
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    background-size: cover;
+    height: 518px;
 }
 
 .gallery-one {
-  background: url("../img/pic1.jpg") 0 0 no-repeat;
+    background: url("../img/pic1.jpg") 0 0 no-repeat;
 }
 
 .gallery-two {
-  background: url("../img/pic2.jpg") 0 0 no-repeat;
+    background: url("../img/pic2.jpg") 0 0 no-repeat;
 }
 
 .gallery-three {
-  background: url("../img/pic3.jpg") 0 0 no-repeat;
+    background: url("../img/pic3.jpg") 0 0 no-repeat;
 }
 
 .gallery-four {
-  background: url("../img/pic4.jpg") 0 0 no-repeat;
+    background: url("../img/pic4.jpg") 0 0 no-repeat;
 }
 
 .instagram {
-  background: #3f729b;
-  width: 100%;
-  max-height: 515px;
+    background: #3f729b;
+    width: 100%;
+    max-height: 515px;
 }
 
 .instagram-info h2 {
-  margin: 0;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 24px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
 }
 
 .instagram-info {
-  float: left;
-  width: 50%;
-  box-sizing: border-box;
-  padding: 120px 0 0 210px;
-  color: #f9f9f9;
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 120px 0 0 210px;
+    color: #f9f9f9;
 }
 
 .instagram-img {
-  float: left;
-  width: 50%;
-  height: 514px;
+    float: left;
+    width: 50%;
+    height: 514px;
 }
 
 .instagram-info h2 {
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 24px;
-  width: 560px;
-  margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 24px;
+    width: 560px;
+    margin-bottom: 10px;
 }
 
 .instagram-info p {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 .instagram-info a {
-  text-decoration: none;
-  text-transform: uppercase;
-  text-align: center;
-  color: #f9f9f9;
-  font-weight: 700;
-  font-size: 18pt;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #f9f9f9;
+    font-weight: 700;
+    font-size: 18pt;
 }
 
 .btn {
-  display: block;
-  margin-top: 40px;
-  padding: 10px 0 7px 0;
-  border: 1px solid #f9f9f9;
-  width: 260px;
-  border-radius: 25px;
+    display: block;
+    margin-top: 40px;
+    padding: 10px 0 7px 0;
+    border: 1px solid #f9f9f9;
+    width: 260px;
+    border-radius: 25px;
 }
 
 .music {
-  max-height: 899px;
-  width: 100%;
-  background: #282b2f;
+    max-height: 899px;
+    width: 100%;
+    background: #282b2f;
 }
 
 .music-right {
-  width: 75%;
-  float: right;
-  background: url("../img/music.jpg") 0 0 no-repeat;
-  height: 899px;
-  background-size: cover;
+    width: 75%;
+    float: right;
+    background: url("../img/music.jpg") 0 0 no-repeat;
+    height: 899px;
+    background-size: cover;
 }
 
 .music-info {
-  background: #212227;
-  width: 33.333333%;
-  box-sizing: border-box;
-  padding: 140px 100px 95px 60px;
+    background: #212227;
+    width: 33.333333%;
+    box-sizing: border-box;
+    padding: 140px 100px 95px 60px;
 }
 
 .music-info h2, .music-info h3 {
-  color: #2b944c;
+    color: #2b944c;
 }
 
 .music-info h2 {
-  font-size: 24px;
-  margin-bottom: 15px;
+    font-size: 24px;
+    margin-bottom: 15px;
 }
 
 .music-info h3 {
-  font-size: 18px;
-  margin-bottom: 35px;
+    font-size: 18px;
+    margin-bottom: 35px;
 }
 
 .music-info p {
-  color: #f9f9f9;
-  font-size: 14px;
-  font-weight: 400;
+    color: #f9f9f9;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .music-info a {
-  margin-top: 50px;
-  width: 175px;
-  display: block;
-  text-transform: uppercase;
-  color: #2b944c;
-  border: 1px solid #2b944c;
-  border-radius: 35px;
-  text-decoration: none;
-  text-align: center;
-  padding: 5px 0 7px 0;
-  font-weight: 700;
+    margin-top: 50px;
+    width: 175px;
+    display: block;
+    text-transform: uppercase;
+    color: #2b944c;
+    border: 1px solid #2b944c;
+    border-radius: 35px;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px 0 7px 0;
+    font-weight: 700;
 }
 
 .feature {
-  height: 516px;
+    height: 516px;
 }
 
 .feature-left {
-  background: #2ebd59;
-  width: 50%;
-  min-height: 516px;
-  float: left;
+    background: #2ebd59;
+    width: 50%;
+    min-height: 516px;
+    float: left;
 }
 
 .feature-right {
-  background: #282b2f;
-  width: 50%;
-  min-height: 516px;
-  float: right;
+    background: #282b2f;
+    width: 50%;
+    min-height: 516px;
+    float: right;
 }
 
 .description {
-  color: #f9f9f9;
-  padding: 140px 0 0 210px;
-  width: 500px;
+    color: #f9f9f9;
+    padding: 140px 0 0 210px;
+    width: 500px;
 }
 
 .description h2 {
-  font-weight: 700;
-  font-size: 24px;
-  margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 30px;
 }
 
 .description p {
-  font-size: 36px;
+    font-size: 36px;
 }
 
 .description a {
-  margin-top: 35px;
-  display: block;
-  text-decoration: none;
-  color: #f9f9f9;
-  text-align: center;
-  font-size: 18px;
-  width: 270px;
-  border: 2px solid #f9f9f9;
-  border-radius: 35px;
-  padding: 15px 0 15px 0;
-  letter-spacing: 2px;
+    margin-top: 35px;
+    display: block;
+    text-decoration: none;
+    color: #f9f9f9;
+    text-align: center;
+    font-size: 18px;
+    width: 270px;
+    border: 2px solid #f9f9f9;
+    border-radius: 35px;
+    padding: 15px 0 15px 0;
+    letter-spacing: 2px;
 }
 
 footer {
-  background: #212227;
-  width: 100%;
-  min-height: 603px;
+    background: #212227;
+    width: 100%;
+    min-height: 603px;
 }
 
 footer h2 {
-  text-transform: uppercase;
-  color: #f9f9f9;
+    text-transform: uppercase;
+    color: #f9f9f9;
 }
 
 footer p {
-  color: #919191;
+    color: #919191;
 }
 
 .wrapper {
-  width: 1180px;
-  margin: 0 auto;
-  padding-top: 101px;
+    width: 1180px;
+    margin: 0 auto;
+    padding-top: 101px;
 }
 
 .footer-copyright {
-  width: 280px;
-  float: left;
+    width: 280px;
+    float: left;
 
 }
 
 .footer-copyright h2 {
-  margin-bottom: 35px;
+    margin-bottom: 35px;
 }
 
 .footer-copyright .about {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .footer-contact {
-  width: 200px;
-  float: left;
-  margin-left: 120px;
+    width: 200px;
+    float: left;
+    margin-left: 120px;
 }
 
 .footer-contact h2 {
-  margin-bottom: 35px;
+    margin-bottom: 35px;
 }
 
 .footer-contact .adress {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 .contact {
-  margin-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 .footer-subscribe {
-  width: 480px;
-  float: right;
+    width: 480px;
+    float: right;
 }
 
 .footer-subscribe h2 {
-  margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .footer-subscribe p {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .footer-subscribe form {
-  margin-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 .footer-subscribe input {
-  width:480px;
-  height: 60px;
-  background: #4d4e52;
-  color: #919191;
-  border: none;
+    box-sizing: border-box;
+    width: 480px;
+    height: 60px;
+    background: #4d4e52 url("../img/arrow.png") 445px center no-repeat;
+    color: #919191;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    outline: none;
 }
 
 .footer-social {
-  width: 105px;
+    width: 105px;
 }
 
-.socialnetworks {
-  float: left;
+.footer-social a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #919191;
+    padding-left: 30px;
+    position: relative;
 }
 
-.text span {
-  float: right;
-  color: #919191;
-  text-align: left;
-  margin-bottom: 5px;
+.footer-social a:hover {
+    color: #ffffff;
+}
+
+.footer-social li {
+    margin-bottom: 10px;
+}
+
+.footer-social a::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-image: url("../img/social.png");
+    background-repeat: no-repeat;
+}
+
+.footer-social-twitter a::before {
+    background-position: 0 -25px;
+}
+
+.footer-social-instagram a::before {
+    background-position: 0 -49px;
+}
+
+.footer-social-spotify a::before {
+    background-position: 0 -74px;
 }
 
 .sponsor li {
-  margin-right: 20px;
-  text-transform: uppercase;
-  display: inline-block;
-  border: 1px solid #f9f9f9;
-  width: 80px;
-  height: 80px;
-  text-align: center;
-  padding-top: 30px;
-  box-sizing: border-box;
+    margin-right: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid #f9f9f9;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    padding-top: 30px;
+    box-sizing: border-box;
 }
 
 footer ul {
-  color: #919191;
+    color: #919191;
 }
