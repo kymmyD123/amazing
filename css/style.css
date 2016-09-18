@@ -17,7 +17,9 @@ p {
   padding: 0;
 }
 
-
+h2, h3 {
+  margin: 0;
+}
 
 .clearfix::after {
   content: "";
@@ -101,11 +103,11 @@ header {
   max-width: 500px;
 }
 
-.gallery{
-   font-size: 0;
+.gallery {
+  font-size: 0;
 }
 
-.gallery li{
+.gallery li {
   display: inline-block;
   vertical-align: top;
   width: 25%;
@@ -153,7 +155,7 @@ header {
 .instagram-img {
   float: left;
   width: 50%;
-  height:514px;
+  height: 514px;
 }
 
 .instagram-info h2 {
@@ -200,55 +202,62 @@ header {
   background-size: cover;
 }
 
-
-
-
-/*
-
-.column-1 {
-  width: 450px;
-  height: 450px;
+.music-info {
   background: #212227;
-  padding: 175px 0 0 75px;
+  width: 33.333333%;
+  box-sizing: border-box;
+  padding: 140px 100px 95px 60px;
 }
 
-.column-1 p {
-  font-weight: 700;
-  color: #2ebd59;
-  font-size: 18pt;
+.music-info h2, .music-info h3 {
+  color: #2b944c;
 }
 
-.column-1 span {
+.music-info h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.music-info h3 {
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.music-info p {
   color: #f9f9f9;
-  font-size: 14pt;
+  font-size: 14px;
+  font-weight: 400;
 }
 
-.button {
-  padding-top: 40px;
+.music-info a {
+  margin-top: 50px;
+  width: 175px;
+  display: block;
+  text-transform: uppercase;
+  color: #2b944c;
+  border: 1px solid #2b944c;
+  border-radius: 35px;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 0 7px 0;
+  font-weight: 700;
 }
 
-footer {
-  width: 100%;
-  height: 1080px;
-  background: url("../img/music.png");
-  background-size: cover;
-}
-
-.last {
+.feature {
   height: 516px;
 }
 
-.first {
+.feature-left {
   background: #2ebd59;
   width: 50%;
-  height: 516px;
+  min-height: 516px;
   float: left;
 }
 
-.second {
+.feature-right {
   background: #282b2f;
   width: 50%;
-  height: 516px;
+  min-height: 516px;
   float: right;
 }
 
@@ -258,28 +267,26 @@ footer {
   width: 500px;
 }
 
-.description p {
+.description h2 {
   font-weight: 700;
-  font-size: 24pt;
-  margin-top: 0;
+  font-size: 24px;
+  margin-bottom: 30px;
 }
 
-.description span {
-  font-size: 25pt;
+.description p {
+  font-size: 36px;
 }
 
 .description a {
+  margin-top: 35px;
+  display: block;
   text-decoration: none;
   color: #f9f9f9;
   text-align: center;
-}
-
-.sub {
-  font-size: 18pt;
-  padding: 15px;
-  width: 250px;
-  border: 1px solid #f9f9f9;
+  font-size: 18px;
+  width: 270px;
+  border: 2px solid #f9f9f9;
   border-radius: 35px;
-  margin-right: 0;
-  margin-top: 50px;
-}*/
+  padding: 15px 0 15px 0;
+  letter-spacing: 2px;
+}
